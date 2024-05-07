@@ -1,0 +1,114 @@
+.main-trabajosdestacados{
+    h1 {
+        background-color: rgb(247, 83, 23);
+        color: rgb(7, 7, 51);
+        text-align: center;
+        font-family: $font_sans-serif;
+        padding: 10px;
+    }
+    .terminados {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        
+        .terminados {
+            div {
+            border: 4px solid rgb(7, 7, 51);
+            color: rgb(7, 7, 51);
+            margin: 20px;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+         }
+
+         img {
+            height: 350px;
+        }
+        p {
+            font-size: 25px;
+        }
+        }
+    }
+    h3 {
+        color: rgb(7, 7, 51);
+        text-align: center;
+        padding: 7px;
+    }
+    .realizadas-galeria{
+        display: grid;
+        grid-template-areas: 
+        "img4 img4 img2 img2 img3 img3"
+        "img1 img1 img5 img5 img6 img6"
+         ;
+    }
+    .realizadas-galeria{
+        div{
+            .img-1{
+                grid-area: img1;
+            }
+            .img-2{
+                grid-area: img2;
+            }
+            .img-3{
+                grid-area: img3;
+            
+            }
+            .img-4{
+                grid-area: img4;
+            }
+            .img-5{
+                grid-area: img5;
+            }
+            .img-6{
+                grid-area: img6;
+            
+            }
+        }
+    }
+    .realizadas-galeria{
+        img{
+        width: 350px;
+        margin: 40px;
+        border: 1px solid rgb(163, 154, 154);
+        padding: 7px;
+        }
+    }
+    .td{
+        padding: 20px;
+        margin-top: 75px;
+    }
+    .realizadas-thames{
+        display: grid;
+        grid-template-areas:
+        "photo1 photo2 photo3"
+        ;
+    }
+    .realizadas-thames{
+        div{
+            .photo-1{
+                grid-area: photo1;
+            
+            }
+            .photo-2{
+                grid-area: photo2;
+            
+            }
+            .photo-3{
+                grid-area: photo3;
+            }
+        }
+    }
+    .realizadas-thames{
+        img{
+            width: 350px;
+            margin: 40px;
+            border: 1px solid rgb(163, 154, 154);
+            padding: 7px;
+        }
+    } 
+}

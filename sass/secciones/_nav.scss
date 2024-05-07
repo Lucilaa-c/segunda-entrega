@@ -1,0 +1,26 @@
+/*menú navegación*/
+.color-navegacion {
+    background-color: rgb(7, 7, 51);
+}
+
+.color-navegacion a {
+    color: rgb(247, 83, 23);
+
+}
+
+.dropdown-item {
+    color: rgb(7, 7, 51);
+}
+
+.active {
+    color: rgb(247, 83, 23) !important;
+}
+
+.nav-izq {
+    justify-content: flex-end;
+    flex-basis: 0;
+    flex-grow: 0;
+}
+.nav-item a:hover{
+    color: rgb(224, 106, 62);
+}
